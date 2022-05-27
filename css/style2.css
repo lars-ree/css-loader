@@ -7,7 +7,7 @@ body {
   .middle {
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-30%, -30%);
     position: absolute;
   }
   .bar {
@@ -18,41 +18,41 @@ body {
     transform-origin: bottom center;
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
-    animation: loader 1.2s linear infinite;
+    animation: loader 1.5s linear infinite;
   }
   .bar1 {
-    animation-delay: 0.1s;
+    animation-delay: 0.4s;
   }
   .bar2 {
     animation-delay: 0.2s;
   }
   .bar3 {
-    animation-delay: 0.3s;
+    animation-delay: 0.1s;
   }
   .bar4 {
-    animation-delay: 0.4s;
+    animation-delay: 0.2s;
   }
   .bar5 {
-    animation-delay: 0.5s;
+    animation-delay: 0.4s;
   }
   .bar6 {
-    animation-delay: 0.6s;
+    animation-delay: 0.2s;
   }
   .bar7 {
-    animation-delay: 0.7s;
+    animation-delay: 0.1s;
   }
   .bar8 {
-    animation-delay: 0.8s;
+    animation-delay: 0.4s;
   }
   
   @keyframes loader {
     0% {
       transform: scaleY(0.1);
-      background: transparent;
+      background: rgb(193, 255, 7);
     }
     50% {
       transform: scaleY(1);
-      background: rgb(172, 255, 7);
+      background: rgb(255, 214, 7);
     }
     100% {
       transform: scaleY(0.1);

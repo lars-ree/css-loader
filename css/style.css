@@ -1,5 +1,5 @@
 .loader {
-    display: flex;
+    display: block;
     align-content: center;
     border: 10px solid #4b4b4b;
     border-top: 10px solid #db3434;
